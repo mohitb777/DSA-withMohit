@@ -1,4 +1,4 @@
-package pratice_12_Math_For_Dsa_Part_2;
+package pratice_13_Math_For_Dsa_Part_2;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class NewtonSqrt {
        while (true){
            root = 0.5 *(x + (n/x));
 
-           if (Math.abs(root - x) < 0.5){
+           if (Math.abs(root - x) < 0.0001){
                break;
            }
            x = root;
