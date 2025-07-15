@@ -1,5 +1,5 @@
 package pratice10patternpraticejava;
-public class firststpattern {
+public class Firststpattern {
     public static void main(String[] args) {
         pattern9(3);
     }
